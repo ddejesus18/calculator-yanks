@@ -44,14 +44,24 @@ for (var i = 0; i <= buttonsCount; i += 1) {
     //log to make sure
      console.log(joined);
 
+     //regex, to match int and dot
+     if (joined.match(/([0-9])./g)) {
+            //not matching .
     //nums to convert joined to integer
     var nums = parseInt(joined);
     //log to make sure
-console.log(nums);
-   }
- }
-};
-}
+    num1 = nums;
+     output.innerHTML = nums;
+
+     } else (joined.match(/([x+/-])/g)); {
+          return this.innerHTML;
+        };
+      };
+     }
+   };
+  }
+
+
 /*document.getElementById("AC").onclick = function() {
   output.innerHTML = " ";
 };
