@@ -2,12 +2,10 @@
   height: 600px;
   width: 100%;
   background-color: #F5F5F5;
-
 }
 .calc-wrapper {
   height: 500px;
   width: 400px;
-  background-color: ;
   margin: 0 auto;
   border-radius: 4px;
   box-shadow: 3px 3px 10px #757575;
@@ -32,35 +30,51 @@
   margin-top: 10px;
   color: #1A237E;
 }
-.digits {
-  width: 360px;
-  height: 350px;
-  border-radius: 2px;
+.button-wrapper {
+  width: 330px;
+  height: 380px;
   margin: 0 auto;
-  position: relative;
-  top: 30px;
-  text-align: center;
-  background-color: #BDBDBD;
-  font-size: 18px;
 }
 button {
   width: 60px;
   height: 52px;
-  margin: 5px 10px;
+  display: inline;
+  margin: 2px auto;
   padding: 5px;
-  font-size: 16px;
+  font-size: 18px;
   color: #1A237E;
   font-weight: bold;
     box-shadow: 1px 1px 1px #757575;
+  text-align: center;
 }
-.row1 button{
-  postion: relative;
-  margin-top: 35px;
+.operator button {
+  float: right;
+  margin: 0 1px;
 }
-.row5 #zero {
-  width: 145px;
+#AC {
+  display: inline;
+  margin: 0;
+  width: 80px
 }
-
-.row1 #AC {
-  width: 145px;
+.digits {
+  border-radius: 2px;
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+.digits button {
+  width: 107px;
+  height: 70px;
+}
+.digits #zero {
+  width: 219px;
+  margin-left: 1px;
+  float: left;
+}
+.total button {
+  width: 107px;
+  height: 70px;
+  position: relative;
+  top: 30px;
+  float: right;
 }
